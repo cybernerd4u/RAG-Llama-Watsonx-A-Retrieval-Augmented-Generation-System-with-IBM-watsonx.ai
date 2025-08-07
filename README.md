@@ -5,7 +5,7 @@
 This project implements a **Retrieval-Augmented Generation (RAG)** system using **IBM watsonx.ai** and the **Llama 3 405B Instruct** model. It fetches web data from Wikipedia pages, processes it into chunks, stores embeddings in a Chroma vector store, and uses the Llama model to generate concise answers to user queries. The system is designed for question-answering tasks, leveraging web content from IBM Watsonx and IBM Cloud Wikipedia pages to provide accurate, context-aware responses.
 
 ### Demo
-Watch a demo of the project on YouTube: [Insert YouTube Demo Link Here](https://www.youtube.com/your-demo-link)
+Watch a demo of the project on YouTube: [(https://img.youtube.com/vi/TfA2m1f25Jk/0.jpg)](https://www.youtube.com/https://youtu.be/TfA2m1f25Jk)
 
 ## Features
 - **Web Data Retrieval**: Uses `WebBaseLoader` to fetch content from specified URLs.
@@ -25,7 +25,7 @@ Watch a demo of the project on YouTube: [Insert YouTube Demo Link Here](https://
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/rag-llama-watsonx.git
+   git clone https://github.com/cybernerd4u/RAG-Llama-Watsonx-A-Retrieval-Augmented-Generation-System-with-IBM-watsonx.ai.git
    cd rag-llama-watsonx
    ```
 
@@ -33,7 +33,6 @@ Watch a demo of the project on YouTube: [Insert YouTube Demo Link Here](https://
    ```bash
    python -m venv venv
    .\venv\Scripts\activate  # Windows
-   # source venv/bin/activate  # Mac/Linux
    ```
 
 3. **Install Dependencies**:
@@ -82,10 +81,10 @@ Watch a demo of the project on YouTube: [Insert YouTube Demo Link Here](https://
 2. **Expected Output**:
    The script processes web data, creates embeddings, and answers a set of predefined queries. Example output:
    ```
-   API Key: KVKJt9LXTEXyv54-ftfiFgPmLJ9XTG5Uxl4vRIlb3qts
-   Project ID: 96f9e7aa-f230-4511-a843-271399b305f3
+   API Key: WATSONX_API_KEY
+   Project ID: WATSONX_PROJECT_ID
    URL: https://us-south.ml.cloud.ibm.com
-   User Agent: rag-llama-watsonx-project/1.0 (Contact: ibrahimsanusib10@gmail.com)
+   User Agent: rag-llama-watsonx-project/1.0 (Contact: ----@examplex.com)
    Created 51 document chunks
 
    Query: What is watsonx?
