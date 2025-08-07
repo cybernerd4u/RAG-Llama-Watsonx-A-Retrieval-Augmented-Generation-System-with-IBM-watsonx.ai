@@ -5,7 +5,7 @@
 This project implements a **Retrieval-Augmented Generation (RAG)** system using **IBM watsonx.ai** and the **Llama 3 405B Instruct** model. It fetches web data from Wikipedia pages, processes it into chunks, stores embeddings in a Chroma vector store, and uses the Llama model to generate concise answers to user queries. The system is designed for question-answering tasks, leveraging web content from IBM Watsonx and IBM Cloud Wikipedia pages to provide accurate, context-aware responses.
 
 ### Demo
-Watch a demo of the project on YouTube: [(https://img.youtube.com/vi/TfA2m1f25Jk/0.jpg)](https://www.youtube.com/https://youtu.be/TfA2m1f25Jk)
+[![Watch a demo of the project on YouTube](https://img.youtube.com/vi/TfA2m1f25Jk/0.jpg)](https://www.youtube.com/watch?v=TfA2m1f25Jk)
 
 ## Features
 - **Web Data Retrieval**: Uses `WebBaseLoader` to fetch content from specified URLs.
