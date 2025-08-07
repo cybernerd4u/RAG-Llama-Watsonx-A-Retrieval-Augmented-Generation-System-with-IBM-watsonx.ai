@@ -1,0 +1,8 @@
+langchain
+langchain-ibm
+langchain-community 
+ibm-watsonx-ai 
+unstructured
+chromadb 
+python-dotenv=
+beautifulsoup4
